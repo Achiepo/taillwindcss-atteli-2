@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./images/favicon.png.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="nav bg-lights p-4 md:flex flex-row justify-between items-center mx-5 me-5">
+
+        <div class="flex flex-row items-center justify-between">
+            <a href="index.html" class="">
+                <h1 class="italic font-bold" style="font-size: 3rem;">Blog</h1>
+            </a>
+            <label for="menu-toggle" class="cursor-pointer md:hidden"><i class="fa-bars fa"></i></label>
+        </div>
+
+        <input type="checkbox" class="hidden peer" id="menu-toggle">
+        <div
+            class="hidden peer-checked:transition-all duration-200 peer-checked:block md:flex flex-row justify-between items-center gap-4">
+            <ul class="pt-4 me-auto gap-4 md:flex flex-row items-center justify-between md:py-4">
+                <li class="mb-3 md:mb-0"><a href=""
+                        class="font-bold text-secondary hover:transition-all duration-300 hover:text-dark">Accueil</a>
+                </li>
+                <li class="mb-3 md:mb-0"><a href=""
+                        class="font-bold text-secondary hover:transition-all duration-300 hover:text-dark">Articles</a>
+                </li>
+                <li class="mb-3 md:mb-0"><a href=""
+                        class="font-bold text-secondary hover:transition-all duration-300 hover:text-dark">Pages</a>
+                </li>
+                <li class="mb-3 md:mb-0"><a href=""
+                        class="font-bold text-secondary hover:transition-all duration-300 hover:text-dark">Contacte</a>
+                </li>
+
+                <li class="mb-3 md:mb-0"><a href="portfolio.html" class="font-bold text-secondary hover:transition-all duration-300 hover:text-dark">Portfolio</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- section vedette -->
+    <section clas="mb-5">
+        <div class="flex flex-wrap justify-center grid-cols-2 gap-4 place-content-evenly">
+            <div>
+                <a href="#"><img class="mx-3 mt-20 rounded-lg shadow-lg transform transition duration-300 hover:scale-105" src=./images/im2.avif alt="" /></a>
+                <a href="#" class="text-primary mx-4">Technologies</a>
+                <p class="mx-4 font-bold">Architectural Engineering Wonders of the modern</p>
+                <p class="text-gris-leger mx-4 mb-10">Maryo sanchez - octobre 2024</p>
+            </div>
+
+            <div>
+                <a href=""><img class="mx-3 mt-20  rounded-lg shadow-lg transform transition duration-300 hover:scale-105" src="./images/im3.avif" alt="" /></a>
+                <a href="#" class="text-primary mx-4">Mode de vie</a>
+                <p class="mx-4 font-bold">5 Effective Brain Recharging Activities No One is Talking About</p>
+                <p class="text-gris-leger mx-4 mb-10">Jhon wed - may 2024</p>
+            </div>
+
+        </div>
+    </section>
+
+  <!-- section articles -->
+    <section id="articles" class="mb-5 margin text-center">
+        <h1 class="text-3xl font-bold mb-5 pt-20">Articles</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="bg-white overflow-hidden">
+                <div class="relative">
+                   <a href=""><img class="w-full image rounded-lg transform transition duration-300 hover:scale-105" src="./images/im4.avif" alt=""></a>
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 ms-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-50 text-white px-2 py-1 m-2 rounded-md text-xs">
+                        
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <div class="text-lg font-medium text-gray-500 mb-5">
+                        <a href="#" class="text-primary">Personal Growth</a>
+                        <p class="font-bold mx-4 text-dark">The Rise of Artificial Intelligence and <br/>the Future of Humans</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white  overflow-hidden">
+                <div class="relative">
+                   <a href=""><img class="w-full image rounded-lg transform transition duration-300 hover:scale-105" src="./images/im5.avif" alt=""><ahref </a>
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 ms-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-50 text-white px-2 py-1 m-2 rounded-md text-xs">
+                        
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <div class="text-lg font-medium text-gray-500 mb-5">
+                        <a href="#" class="text-primary">Travel</a>
+                        <p class="text-dark">I Moved Across the Country and<br/> Never Looked Back</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white  overflow-hidden">
+                <div class="relative">
+                     <a href=""><img class="w-full image rounded-lg transform transition duration-300 hover:scale-105" src="./images/oip.avif" alt=""></a>
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 ms-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-50 text-white px-2 py-1 m-2 rounded-md text-xs">
+                        
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <div class="text-lg font-medium text-gray-500 mb-5">
+                        <a href="#" class="text-primary">lifstyle</a>
+                        <p class="text-dark">Every Next Level of Your Life<br/> Will Demand a Different You</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white overflow-hidden">
+                <div class="relative">
+                    <a href=""><img class="w-full image rounded-lg transform transition duration-300 hover:scale-105" src="./images/oip2.avif" alt=""></a>
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 ms-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-50 text-white px-2 py-1 m-2 rounded-md text-xs">
+                        
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <div class="text-lg font-medium text-gray-500 mb-5">
+                        <a href="#" class="text-primary">Technologies</a>
+                        <p class="text-dark">Escape Fantasies of <br/>the Tech Billionaires</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-white  overflow-hidden">
+                <div class="relative">
+                    <a href=""><img class="w-full image rounded-lg transform transition duration-300 hover:scale-105" src="./images/im6.avif" alt=""></a>
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 ms-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-50 text-white px-2 py-1 m-2 rounded-md text-xs">
+                        
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <div class="text-lg font-medium text-gray-500 mb-5">
+                        <a href="#" class="text-primary">Croissance personnelle</a>
+                        <p class="text-dark">Every Next Level of Your Life Will<br/> Demand a Different You</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white  overflow-hidden">
+                <div class="relative">
+                    <a href=""><img class="w-full image rounded-lg transform transition duration-300 hover:scale-105" src="./images/12.avif" alt=""></a>
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 ms-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-50 text-white px-2 py-1 m-2 rounded-md text-xs">
+                        
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <div class="text-lg font-medium text-gray-500 mb-5">
+                        <a href="#" class="text-primary">Croissance personnelle</a>
+                        <p class="text-dark">Every Next Level of Your Life Will<br/> Demand a Different You</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-white  overflow-hidden">
+                <div class="relative">
+                    <a href=""><img class="w-full image rounded-lg transform transition duration-300 hover:scale-105" src="./images/5be.avif" alt=""></a>
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 ms-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-50 text-white px-2 py-1 m-2 rounded-md text-xs">
+                        
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <div class="text-lg font-medium text-gray-500 mb-5">
+                        <a href="#" class="text-primary">Croissance personnelle</a>
+                        <p class="text-dark">Every Next Level of Your Life Will<br/>Demand a Different You</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white  overflow-hidden">
+                <div class="relative">
+                    <a href=""><img class="w-full image rounded-lg transform transition duration-300 hover:scale-105" src="./images/im7.avif" alt=""></a>
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 ms-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-50 text-white px-2 py-1 m-2 rounded-md text-xs">
+                        
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <div class="text-lg font-medium text-gray-500 mb-5">
+                        <a href="#" class="text-primary">Croissance personnelle</a>
+                        <p class="text-dark">Lessons Of Happiness I learned<br/> from a Mountain Village</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white overflow-hidden">
+                <div class="relative">
+                    <a href=""> <img class="w-full image rounded-lg transform transition duration-300 hover:scale-105" src="./images/bop.avif" alt=""></a>
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 ms-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-50 text-white px-2 py-1 m-2 rounded-md text-xs">
+                        
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <div class="text-lg font-medium text-gray-500 mb-5">
+                        <a href="#" class="text-primary">eat</a>
+                        <p class="text-dark">This Bread Pudding Will Give You All<br/> the Fall Feels</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- section  cadegorie -->
+
+<section id="articles" class="mb-5 margin text-center">
+    <div class=" rounded-lg p-6 w-full max-w-xl"></div>
+    <h1 class="text-3xl font-bold mb-5 pt-2">Categories</h1>
+        <ul class="flex justify-center gap-4">
+            <li>
+                <a href="#" class="block bg-gray-100 text-gray-700 font-semibold py-2 px-4 rounded hover:bg-blue-500 transition">Music</a>
+            </li>
+            <li>
+                <a href="#" class="block bg-gray-100 text-gray-700 font-semibold py-2 px-4 rounded hover:bg-red-500 transition">Histoire</a>
+            </li>
+            <li>
+                <a href="#" class="block bg-gray-100 text-gray-700 font-semibold py-2 px-4 rounded hover:bg-yellow-300 transition">Plage</a>
+            </li>
+            <li>
+                <a href="#" class="block bg-gray-100 text-gray-700 font-semibold py-2 px-4 rounded hover:bg-green-500 transition">Football</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- section contact -->
+
+    <div class="mb-5 mt-5 bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
+        <h2 class="text-2xl font-bold mb-4 text-center">Abonnez-vous à notre Newsletter</h2>
+        <form action="#" method="POST">
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 font-semibold mb-2">Adresse E-mail</label>
+                <input type="email" id="email" name="email" required 
+                       class="border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:ring focus:ring-blue-500" 
+                       placeholder="Entrez votre adresse e-mail">
+            </div>
+            <button type="submit" 
+                    class="bg-blue-500 text-white py-2 px-4 rounded-lg w-full hover:bg-blue-600 transition">S'abonner
+            </button>
+        </form>
+    </div>
+<!-- fin de contact -->
+    
+<!-- pied de page -->
+
+<footer class="bg-secondary shadow">
+    <div class="container mx-auto py-6 margin-0">
+        <p class="text-center text-dark-500">Copyright&copy; 2024 Mon Blog. Tous droits réservés.</p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
